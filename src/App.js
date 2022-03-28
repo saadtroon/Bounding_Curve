@@ -48,7 +48,7 @@ class App extends React.Component {
               <input type="number" value={this.state.userBalance} onChange={(e) => this.setState({ userBalance: e.target.value })} />
             </span>
             <span style={{ margin: 10 }}>
-              <label>Artist Fee : </label>
+              <label>Owner Fee : </label>
               <input type="number" step="0.01" min={0} max={1.00} value={this.state.artistFee} onChange={(e) => this.setState({ artistFee: e.target.value })} />
             </span>
             <span style={{ margin: 10 }}>

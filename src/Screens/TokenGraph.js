@@ -157,7 +157,7 @@ class MintingGraph extends React.Component {
                     </span>
                     &nbsp; &nbsp;
                     <span>
-                        <label>Artist Fee = </label>
+                        <label>Owner Fee = </label>
                         <label>{this.state.artistFee}</label>
                     </span>
                     &nbsp; &nbsp;
@@ -184,7 +184,7 @@ class MintingGraph extends React.Component {
                     </span>
                     &nbsp; &nbsp;
                     <span>
-                        <label>Artis Balance = </label>
+                        <label>Owner Balance = </label>
                         <label>{this.state.artistBalance}</label>
                     </span>
 
